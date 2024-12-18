@@ -70,7 +70,6 @@ cd build-$TARGET-stage2
   --enable-threads=posix \
   --disable-tls \
   --disable-nls \
-  --enable-cxx-flags="-std=c++11" \
   $TARG_XTRA_OPTS
 
 ## Compile and install.
