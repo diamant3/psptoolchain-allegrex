@@ -70,7 +70,7 @@ cd build-$TARGET-stage2
   --enable-threads=posix \
   --disable-tls \
   --disable-nls \
-  CXXFLAGS="-std=c++11" \
+  --enable-cxx-flags="-fnothrow-opt" \
   $TARG_XTRA_OPTS
 
 ## Compile and install.
