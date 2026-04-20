@@ -44,7 +44,7 @@ jobs:
       with:
         msystem: UCRT64
         install: |
-          base-devel mingw-w64-ucrt-x86_64-toolchain
+          base-devel mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-git
         update: true
 
     - name: Runs all stages
